@@ -10,6 +10,6 @@ RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 # This supports the env variable
 ADD /run_nginx /run_nginx
 
-EXPOSE 80
+EXPOSE 10086
 EXPOSE 443
 CMD /run_nginx
